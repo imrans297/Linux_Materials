@@ -1,0 +1,11 @@
+#!/bin/bash
+# Author: Imran
+# Date: 19/11/2023
+# Discription:  pull_file syslog (errors )from Location /var/log to current directiry and list the errror messages
+# Date Modified: 19/11/2023
+
+
+cp /var/log/syslog .
+grep -i error /home/imranshaikh/Downloads/Linux_Course/Linux_Advance-scripting/professional_scripts/syslog > /home/imranshaikh/Downloads/Linux_Course/Linux_Advance-scripting/professional_scripts/output-error
+#we can also see the lines or error/fails/warn with the help f commnd cat output-error | wc -l
+## ./1pull_error1.sh | grep "Nov 20" | wc -l OR output-error | grep "Nov 20" | wc -l
