@@ -1,0 +1,13 @@
+#!/bin/bash
+
+#Author: Imran Shaikh
+#Date: 13th Oct 2025
+#LastModified: 13th Oct 2025
+#Description
+# Prints "This is my first script" to the Terminal
+
+#Usage
+# Our-First-Script
+
+echo "This is my first script"
+exit 0
