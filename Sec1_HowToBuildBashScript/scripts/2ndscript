@@ -1,0 +1,12 @@
+#!/bin/bash
+
+#Author: Imran Shaikh
+#Date: 13th Oct 2025
+#LastModified: 13th Oct 2025
+#Description: This script should backup all the files in your home directory and save them all in a .tar
+
+1   tar -cvf ~/Practices/Linux/bash_course/my_bckup_"$(date +%d-%m-%Y_%H-%M-%S)".tar ~/* 2>/dev/null
+
+#2   tar -cvf my_bckup_"$(date +%d-%m-%Y_%H-%M-%S)".tar ~/* 2>/dev/null
+
+#3   tar -cvf my_bckup_"$(date +%d-%m-%Y_%H-%M-%S)".tar ~~/Practices/* 2>/dev/null
